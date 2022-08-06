@@ -1,9 +1,8 @@
+"use strict"
 
-const wordForm = document.querySelector(".wordForm");
-const submitButton = document.getElementById("submit");
+const wordForm = document.getElementById("charactersForm");
 
 wordForm.addEventListener("submit", countCharacters);
-
 
 function countCharacters() {
     const word = document.getElementById("word").value;

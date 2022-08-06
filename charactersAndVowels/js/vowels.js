@@ -1,15 +1,14 @@
 "use strict"
 
-// variables
-const sentence = "paaaaastaaaa";
+const vowelsForm = document.getElementById("vowelsForm");
+const userSentence = document.getElementById("userSentence");
 let vowelsArray = [];
 
-// function call
-splitString(sentence);
+vowelsForm.addEventListener("submit", splitString);
 
-// functions
-function splitString(str) {
-    const stringToArray = str.split(" ");
+function splitString() {
+    const sentence = userSentence.value;
+    const stringToArray = sentence.split(" ");
     stringToArray.forEach((word) => {
         for(let index = 0; index < word.length; index++) {
             if(word[index] === "a" || word[index] === "e" || word[index] === "i" || word[index] === "o" || word[index] === "u") {
@@ -22,7 +21,6 @@ function splitString(str) {
     })
 }
 function outputsVowelsResults() {
-    console.log("Vowels in this sentence:");
     vowelsArray.forEach((vowel) => {
         console.log(vowel);
     })
