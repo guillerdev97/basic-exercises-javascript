@@ -4,3 +4,28 @@
   margin: 0;
   padding: 0;
 }
+
+/* body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* section-colors */
+#colors-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60vw;
+  height: 40vh;
+  border: 1px solid black;
+}
+
+/* box-section */
+.box-section {
+  width: 25%;
+  height: 80%;
+  border: 1px solid black;
+}
