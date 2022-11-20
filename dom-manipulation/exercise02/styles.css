@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(23, 94, 225);
+  border: 1px solid black;
+}
+#output {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+}
+
+main {
+  width: 100vw;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 30vh;
+  margin: auto;
+  border: 1px solid black;
+}
