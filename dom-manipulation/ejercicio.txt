@@ -1,0 +1,8 @@
+MANIPULACIÓN DEL DOM (DOCUMENT OBJECT MODEL)
+
+Este ejercicio forma parte de la sección de aprendizaje dom-manipulation. 
+
+Se trata de un ejercico básico para asentar los conocimientos sobre cómo manipular los elementos del dom usando JavaScript plano. Aprenderás:
+- Manipular y coger elementos del DOM.
+- Selectores CSS.
+- Eventos en JavaScript...
