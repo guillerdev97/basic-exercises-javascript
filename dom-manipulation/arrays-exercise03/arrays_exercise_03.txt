@@ -1,0 +1,2 @@
+This exercise allows you solidify the dom fundamentals. 
+You will work with arrays.
